@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  app:
+    build:
+      # Dockerfileの場所を指定
+      context: .
+      # build時に使用する環境変数を指定
+      args:
+        USER: "camp_user"
+    image: camp:linux
+    # コンテナを起動状態にする
+    tty: true

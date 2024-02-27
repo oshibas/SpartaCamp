@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+p {
+    margin: 100px;
+    padding: 100px 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: #ffffe0;
+}

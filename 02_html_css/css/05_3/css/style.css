@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+/* 文字の間隔を0.5文字にする */
+.text-spacing {
+    letter-spacing: 0.5em;
+}
